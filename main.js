@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     console.log('Proximamente.....');
-    /* window.Ecwid.OnPageLoaded.add(function (page) {        
+    window.Ecwid.OnPageLoaded.add(function (page) {        
         function execute(params) {             
             var section = document.getElementById("section-guia-talla");
             var paragraph = document.createElement("p");
@@ -21,5 +21,5 @@ document.addEventListener('DOMContentLoaded', function () {
             section.appendChild(button);
         }
         execute();
-    }); */
+    });
 });
