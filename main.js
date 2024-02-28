@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    console.log('Proximamente.....');
+    console.log('Ya se hacen cambios.....');
     window.Ecwid.OnPageLoaded.add(function (page) {        
         function execute(params) {             
             var section = document.getElementById("section-guia-talla");
